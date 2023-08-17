@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        caveat: ["Caveat", "cursive"],
+        caveatBrush: ["Caveat Brush", "cursive"],
+      },
+    },
   },
   plugins: [],
 };
